@@ -441,3 +441,35 @@ nav {
 .old-comment .cmnt-action a {
   color: #0000ff;
 }
+
+@media (max-width: 900px) {
+  .play-video {
+    flex-basis: 100%;
+  }
+
+  .right-sidebar {
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+
+  .play-container {
+    padding-left: 5%;
+  }
+
+  .vid-desc {
+    padding-left: 0;
+  }
+
+  .play-video .play-vid-info a {
+    margin-top: 10px;
+  }
+
+  .old-comment {
+    margin-top: 10px;
+    align-items: flex-start;
+  }
+
+  .add-comment input {
+    margin-left: 2%;
+  }
+}
